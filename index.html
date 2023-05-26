@@ -5,18 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ivrea e Olivetti</title>
   <link rel="shortcut icon" href="https://w.wiki/6kgh" type="image/png">
+  <link href='https://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet'>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <iframe src="navbar.html" frameborder="0" width="100%" height="50"></iframe>
-    <div class="container">
-        <img src="img/logo.png">
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand">Il Comune Di Ivrea</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" target="_top">La Storia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_top">Olivetti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_top">Arduino</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <section class="hero-section">
+    <br><br><br>
+    <div class="container">
+        <img id="logo" class="img-fluid" src="img/logo.png">
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -134,7 +156,9 @@
   </section>
 
   <footer>
-    <iframe src="footer.html" frameborder="0" width="100%" height="50"></iframe>
+    <div class="container">
+      <p>Made with <span style="color: #e25555;">&hearts;</span> by <a href="https://github.com/cliccato">cliccato</a></p>
+    </div>
   </footer>
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
