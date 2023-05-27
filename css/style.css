@@ -6,29 +6,35 @@ body {
 p {
     color: #FFFFFF;
     font-weight: 100%;
+    size: 100%;
 }
 
 h1 {
     color: #5afac5;
     font-size: 400%;
+    size: 100%;
 }
 
 h4 {
     color: #5afac5;
     font-size: 200%;
+    size: 100%;
 }
 
 .card-title {
     color: #5afac5;
     font-size: 150%;
+    size: 100%;
 }
 
 .card-body {
     font-size: 100%;
+    size: 100%;
 }
 
 .card-text {
     font-size: 100%;
+    size: 100%;
 }
 
 #logo {
@@ -50,6 +56,7 @@ h4 {
 
 #title {
     font-size: 300%;
+    size: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -104,4 +111,28 @@ th {
 
 td {
     font-size: 100%;
+}
+
+.vr {
+    color: #343a40;
+    size: 100%;
+}
+
+.jumbotron {
+    background-color: #343a40;
+    color: #fff;
+}
+
+#show-ivrea-info:hover {
+    background-color: #343a40;
+}
+
+.carousel-inner {
+    width: 500px;
+    height: 250px;
+    size: 1005;
+}
+
+.carousel-caption {
+    color: #FFFFFF;
 }
