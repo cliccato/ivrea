@@ -126,13 +126,3 @@ td {
 #show-ivrea-info:hover {
     background-color: #343a40;
 }
-
-.carousel-inner {
-    width: 500px;
-    height: 250px;
-    size: 1005;
-}
-
-.carousel-caption {
-    color: #FFFFFF;
-}

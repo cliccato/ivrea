@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    size: 100%;
+}
+
+.hero-section {
+    padding-bottom: 30%;
+}
+  
+.scrollable-section {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    size: 25%;
+    max-height: 1000px;
+    overflow-y: scroll;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 4s ease, transform 4s ease; /* Modifica il valore per allungare il tempo di animazione */
+    scroll-snap-type: y mandatory;
+    scroll-padding-bottom: 1px;
+}
+  
+.scrollable-section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scrollable-section p {
+    scroll-snap-align: start;
+    font-size: 150%;
+}

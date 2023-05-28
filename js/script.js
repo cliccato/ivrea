@@ -1,5 +1,3 @@
-$('.carousel').carousel()
-
 function showIvreaInfo() {
   var button = document.getElementById("show-ivrea-info");
   if (document.getElementById("ivrea-info").classList.contains("d-none")) {
