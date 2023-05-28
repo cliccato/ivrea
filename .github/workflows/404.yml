@@ -1,0 +1,20 @@
+name: Custom 404 Page
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up 404 page
+      run: |
+        mkdir -p .github/workflows/dist
+        cp 404.html .github/workflows/dist/index.html
+        touch .nojekyll
