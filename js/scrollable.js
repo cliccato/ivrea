@@ -22,7 +22,8 @@ window.addEventListener('DOMContentLoaded', function() {
 var backgroundImages = [
     "img/olivetti/fabric.jpg",
     "img/olivetti/shop.jpg",
-    "img/olivetti/headquarters.jpg"
+    "img/olivetti/headquarters.jpg",
+    "img/olivetti/awards.jpeg"
 ];
 
 function setCycleBackgroundImages() {

@@ -10,3 +10,17 @@ function showIvreaInfo() {
     button.textContent = "Scopri di più";
   }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  var showInfoButton = document.getElementById("show-ivrea-info");
+  
+  showInfoButton.addEventListener("click", function() {
+    var buttonText = this.textContent;
+    
+    if (buttonText === "Scopri di più") {
+      this.classList.add("animate-button");
+    } else {
+      this.classList.remove("animate-button");
+    }
+  });
+});
