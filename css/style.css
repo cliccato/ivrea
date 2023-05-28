@@ -151,6 +151,20 @@ td {
     }
 }
 
+#show-ivrea-info {
+    background-color: black;
+    border: none;
+}
+
 #show-ivrea-info:hover {
     background-color: #343a40;
+    border: none;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
