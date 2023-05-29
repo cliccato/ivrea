@@ -168,3 +168,8 @@ td {
 .card:hover {
     transform: scale(1.1);
 }
+
+#typing-text {
+    size: 100%;
+    padding-top: 75px;
+}
