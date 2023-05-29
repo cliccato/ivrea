@@ -46,6 +46,7 @@ h4 {
 #mini-logo {
     width: 6%;
     height: 6%;
+    size: 100%;
 }
 
 .card-img {
@@ -161,8 +162,15 @@ td {
     border: none;
 }
 
+.btn {
+    background-color: black;
+}
+
 .card {
     transition: transform 0.3s;
+    size: 100%;
+    background-color: #343a40;
+    margin-bottom: 2%;
 }
 
 .card:hover {
@@ -172,4 +180,17 @@ td {
 #typing-text {
     size: 100%;
     padding-top: 75px;
+}
+
+.mini-badge {
+    width: 120px;
+    height: 35px;
+    size: 100%;
+    padding-right: 4%;
+    padding-bottom: 3%;
+}
+
+section {
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
