@@ -85,7 +85,7 @@ h4 {
 }
 
 #ivrea-info {
-    padding-top: 7%;
+    padding-top: 4%;
 }
 
 .portfolio-section {
@@ -166,11 +166,18 @@ td {
     background-color: black;
 }
 
+.arduinocard {
+    min-width: 300px;
+    min-height: 475px;
+    max-width: 300px;
+    max-height: 475px;
+}
+
 .card {
     transition: transform 0.3s;
     size: 100%;
     background-color: #343a40;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 .card:hover {
@@ -191,6 +198,6 @@ td {
 }
 
 section {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
